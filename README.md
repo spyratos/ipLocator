@@ -13,3 +13,6 @@
 ### /locate
 #### BodyParams:
 1. `ip` - ip you wish to locate
+
+
+Content-Type header of the incoming request should be "application/json". It is assumed that this API won't accept "application/x-www-form-urlencoded" or "multipart/form-data" content-types.
